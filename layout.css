@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    background-color: #00B2A9;
+}
+
+.card {
+  background-color: #FF752D;
+}
+
+#title {
+  color: #2DFFF4;
+  font-size: 2.5em;
+}
+
+#head {
+  padding: 2em;
+  margin: 4em;
+}
+
+a {
+  margin-left: 50%;
+}
+
+#quote-card {
+  background-color: #FFA87B;
+  padding: 2em 1em 2em 1em;
+  margin: 4em 0em;
+}
+
+#quote {
+  color: #00B2A9;
+  font-size: 1.5em;
+}
+
+#author {
+  font-size: 1.5em;
+}
+
+.waves-effect {
+  margin: 1em 0em 0em 0em;
+}

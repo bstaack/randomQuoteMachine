@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>random quote</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" rel="stylesheet">
+<link href="layout.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+   <div class="row">
+
+     <div class="col s12">
+       <div id="head" class="card">
+         <p id="title" class="center-align">want to hear a quote?</p>
+       </div>
+     </div>
+
+     <div class="col s1 offset-s5">
+         <a id="shuffle" class="btn btn-floating btn-large cyan pulse"><i class="material-icons">shuffle</i></a>
+     </div>
+
+     <div class="col s10 offset-s1">
+       <div id="quote-card" class="card">
+         <div id="goods">
+         <p id="quote"></p>
+       <p id="author" class="right-align"></p>
+         </div>
+        <a class="waves-effect waves-light btn" target="_blank"
+    data-size="large"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+       </div>
+     </div>
+
+    </div>
+  </div>
+</body>
+</html>
